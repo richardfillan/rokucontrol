@@ -1,10 +1,10 @@
 const CACHE_NAME = 'roku-controller-cache-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/app.js',
-    '/manifest.json',
-    '/icon.png'
+    '/rokucontrol/',
+    '/rokucontrol/index.html',
+    '/rokucontrol/app.js',
+    '/rokucontrol/manifest.json',
+    '/rokucontrol/icon.png'
 ];
 
 // Install event: Caches app assets for offline use
