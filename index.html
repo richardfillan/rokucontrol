@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
     <title>Roku Remote</title>
 </head>
 <body>
     <h1>Roku Controller</h1>
     <div id="button-container">
-        <button onclick="sendRequest(1)">Button 1</button>
-        <button onclick="sendRequest(2)">Button 2</button>
-        <button onclick="sendRequest(3)">Button 3</button>
-        <button onclick="sendRequest(4)">Button 4</button>
-        <button onclick="sendRequest(5)">Button 5</button>
-        <button onclick="sendRequest(6)">Button 6</button>
-    </div>
+        <button class="control-button" aria-label="Play" onclick="sendRequest(1)">Button 1</button>
+        <button class="control-button" aria-label="Pause" onclick="sendRequest(2)">Button 2</button>
+        <button class="control-button" onclick="sendRequest(3)">Button 3</button>
+        <button class="control-button" onclick="sendRequest(4)">Button 4</button>
+        <button class="control-button" onclick="sendRequest(5)">Button 5</button>
+        <button class="control-button" onclick="sendRequest(6)">Button 6</button>
+    </div>    
     <script src="app.js"></script>
 </body>
 </html>
