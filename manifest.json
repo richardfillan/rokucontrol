@@ -1,7 +1,7 @@
 {
   "name": "Roku Controller",
   "short_name": "Roku",
-  "start_url": "/rokucontrol/index.html", // Replace 'repository-name' with your actual repo name
+  "start_url": "/rokucontrol/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
