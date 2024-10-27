@@ -7,6 +7,15 @@ body {
     background-color: #f5f5f5;
     font-family: Arial, sans-serif;
 }
+.container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Space between heading and buttons */
+}
 
 #button-container {
     display: grid;
