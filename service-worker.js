@@ -7,7 +7,7 @@ const urlsToCache = [
     '/rokucontrol/icon.png'
 ];
 
-// Install event: Caches app assets for offline use
+// Install event: Caches app assets for offline  use
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
