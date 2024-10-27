@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Roku Remote</title>
 </head>
 <body>
     <h1>Roku Controller</h1>
     <div id="button-container">
-        <button class="control-button" aria-label="Play" onclick="sendRequest(1)">Button 1</button>
-        <button class="control-button" aria-label="Pause" onclick="sendRequest(2)">Button 2</button>
-        <button class="control-button" onclick="sendRequest(3)">Button 3</button>
-        <button class="control-button" onclick="sendRequest(4)">Button 4</button>
-        <button class="control-button" onclick="sendRequest(5)">Button 5</button>
-        <button class="control-button" onclick="sendRequest(6)">Button 6</button>
+        <button class="control-button" aria-label="Play" onclick="sendRequest(1)"><i class="fas fa-play"></i></button>
+        <button class="control-button" aria-label="Pause" onclick="sendRequest(2)">Pause</button>
+        <button class="control-button" aria-label="Home" onclick="sendRequest(3)">Home</button>
+        <button class="control-button" aria-label="Up" onclick="sendRequest(4)">Up</button>
+        <button class="control-button" aria-label="Down" onclick="sendRequest(5)">Down</button>
+        <button class="control-button" aria-label="Select" onclick="sendRequest(6)">Select</button>
     </div>    
     <script src="app.js"></script>
 </body>
