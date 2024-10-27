@@ -23,7 +23,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
             .then(response => {
-                // If a cache match is found, return it; otherwise, make a network request
+                // If a cache match is found, then return it; otherwise, make a network request
                 return response || fetch(event.request);
             })
     );
