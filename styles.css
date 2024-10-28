@@ -33,7 +33,10 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
+    width: 100%;        /* Ensure buttons take full width of the grid cell */
+    height: 100%;       /* Make buttons consistent in height */
+    box-sizing: border-box; /* Include padding and border in width/height */
 }
 
 .control-button:hover {
