@@ -19,7 +19,7 @@ body {
 
 #button-container {
     display: grid;
-    gap: 10px;
+    gap: 25px;
     grid-template-columns: repeat(3, 1fr);  /* Adjusts to 3 columns */
     width: 80%;
     max-width: 600px;
@@ -29,7 +29,7 @@ body {
     padding: 20px;
     font-size: 18px;
     color: white;
-    background-color: #007bff;
+    background-color: #00ff95;
     border: none;
     border-radius: 8px;
     cursor: pointer;
