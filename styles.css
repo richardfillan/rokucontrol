@@ -39,3 +39,9 @@ body {
 .control-button:hover {
     background-color: #0056b3;
 }
+
+.control-button i {
+    font-size: 24px; /* Adjust to your desired size */
+    color: white;    /* Optional: Set icon color */
+}
+
