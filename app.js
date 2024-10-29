@@ -3,7 +3,7 @@ const ROKU_ADDRESS = 'http://roku-device-address';
 
 // Configure each button to use the ROKU_ADDRESS constant
 const buttonConfigs = {
-    1: { url: `https://bbc.co.uk`, method: 'GET' },
+    1: { url: `http://192.168.1.40`, method: 'GET' },
     2: { url: `${ROKU_ADDRESS}/keypress/pause`, method: 'POST' },
     3: { url: `${ROKU_ADDRESS}/keypress/home`, method: 'POST' },
     4: { url: `${ROKU_ADDRESS}/keypress/up`, method: 'POST' },
