@@ -1,5 +1,5 @@
 // Store the Roku device address as a constant
-const ROKU_ADDRESS = 'http://192.168.0.56';
+const ROKU_ADDRESS = 'http://192.168.0.56:8060';
 
 // Configure each button to use the ROKU_ADDRESS constant
 const buttonConfigs = {
